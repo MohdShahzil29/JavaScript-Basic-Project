@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .balance h4 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .balance h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .inc-exp-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .inc-exp-container div {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+  }
+  
+  .money {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .plus {
+    color: #2ecc71;
+  }
+  
+  .minus {
+    color: #e74c3c;
+  }
+  
+  .list {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  
+  .list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 5px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .list li.plus {
+    border-color: #2ecc71;
+  }
+  
+  .list li.minus {
+    border-color: #e74c3c;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
